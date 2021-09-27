@@ -8,6 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\Icon1.png" />
+    <None Remove="Views\Icon2.png" />
+    <None Remove="Views\IconAjustes.png" />
+    <None Remove="Views\IconInventario.png" />
+    <None Remove="Views\IconProductos.png" />
+    <None Remove="Views\IconTransacciones.png" />
+    <None Remove="Views\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Import Include="System.Windows" />
     <Import Include="System.Windows.Controls" />
     <Import Include="System.Windows.Data" />
@@ -25,6 +35,16 @@
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\Icon1.png" />
+    <Resource Include="Views\Icon2.png" />
+    <Resource Include="Views\IconAjustes.png" />
+    <Resource Include="Views\IconInventario.png" />
+    <Resource Include="Views\IconProductos.png" />
+    <Resource Include="Views\IconTransacciones.png" />
+    <Resource Include="Views\logo.png" />
   </ItemGroup>
 
 </Project>

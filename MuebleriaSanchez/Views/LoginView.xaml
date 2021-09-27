@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:MuebleriaSanchez"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="Gray">
+             Background="AntiqueWhite">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="10*"/>
@@ -31,7 +31,7 @@
                 <RowDefinition Height="20*"/>
             </Grid.RowDefinitions>
             <Label Grid.Row="0" HorizontalAlignment="Center">Usuario</Label>
-            <TextBox Grid.Row="1"  TextWrapping="Wrap"  Width="250" MaxHeight="30" Text="{Binding UserName, Mode=TwoWay} "/>
+            <TextBox Grid.Row="1"  TextWrapping="Wrap"  Width="250" MaxHeight="30" Text="{Binding UserName, Mode=TwoWay}"/>
             <Label Grid.Row="3" HorizontalAlignment="Center">password</Label>
             <PasswordBox x:Name="password" Grid.Row="4"  Width="250" MaxHeight="30"/>
         </Grid>

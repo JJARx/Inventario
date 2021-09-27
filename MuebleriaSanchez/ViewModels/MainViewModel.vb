@@ -13,7 +13,7 @@
         End Set
     End Property
     Public Sub New()
-        CurrentPageViewModel = New LoginViewModel(Me)
+        CurrentPageViewModel = New HomeViewModel(Me)
     End Sub
 
 End Class
