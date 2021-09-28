@@ -25,7 +25,7 @@
                 <ColumnDefinition Width="30*"/>
                 <ColumnDefinition Width="70*"/>
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" Source="/Views/logo.png"/>
+            <Image Grid.Column="0" Source="/Resources/sanchez.png"/>
             <Grid Grid.Column="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="40*"/>

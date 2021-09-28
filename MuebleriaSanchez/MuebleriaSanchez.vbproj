@@ -38,13 +38,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Views\Icon1.png" />
-    <Resource Include="Views\Icon2.png" />
-    <Resource Include="Views\IconAjustes.png" />
-    <Resource Include="Views\IconInventario.png" />
-    <Resource Include="Views\IconProductos.png" />
-    <Resource Include="Views\IconTransacciones.png" />
-    <Resource Include="Views\logo.png" />
+    <Resource Include="Resources\Icon1.png" />
+    <Resource Include="Resources\Icon2.png" />
+    <Resource Include="Resources\IconAjustes.png" />
+    <Resource Include="Resources\IconInventario.png" />
+    <Resource Include="Resources\IconProductos.png" />
+    <Resource Include="Resources\IconTransacciones.png" />
+    <Resource Include="Resources\logo.png" />
   </ItemGroup>
 
 </Project>
