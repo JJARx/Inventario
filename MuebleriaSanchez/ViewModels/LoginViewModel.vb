@@ -37,6 +37,8 @@
     Public Sub LogIn(passwordBox As PasswordBox)
         'Accion de LogIn
         Dim pass = passwordBox.Password
+        _context.ChangeView(NameOf(HomeView))
+
 
     End Sub
 
