@@ -133,7 +133,7 @@
                     <ColumnDefinition Width="30*"/>
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/IconAjustes.png"/>
+                <Image Grid.Column="0" Source="/Resources/IconAjustes.png"/>
                 <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" HorizontalAlignment="Right" Width="171">Ajustes</Label>
             </Grid>
         </Grid>
