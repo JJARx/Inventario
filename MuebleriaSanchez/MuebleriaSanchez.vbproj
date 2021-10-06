@@ -51,4 +51,10 @@
     <Resource Include="Views\EditIcon.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Page Update="Views\GerenteView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+  </ItemGroup>
+
 </Project>
