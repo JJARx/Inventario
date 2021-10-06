@@ -23,7 +23,7 @@
     Public Sub OpenOption(optionId As Integer)
         Select Case optionId
             Case 1
-                Debug.Print("SIrve")
+                _context.ChangeView(NameOf(InventoryView))
 
             Case 2
                 '
