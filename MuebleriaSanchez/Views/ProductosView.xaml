@@ -1,0 +1,144 @@
+﻿<UserControl x:Class="HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MuebleriaSanchez"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Background="AntiqueWhite">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="70*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="/Resources/sanchez.png"/>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="30*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" FontSize="30" Background="{x:Null}">Nombre Empleado</Label>
+                <Label Grid.Row="1">Info Empleado</Label>
+                <Label Grid.Row="2">Info</Label>
+            </Grid>
+
+        </Grid>
+
+        <Label Grid.Row="2" FontSize="25" VerticalAlignment="Center" Margin="30,0,30,0"  >Bienvenido</Label>
+
+        <Grid Grid.Row="3" Margin="10,10,10,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="31*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="31*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="31*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Background="#7FFFBE67">
+                <Grid.InputBindings>
+                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="1"/>
+                </Grid.InputBindings>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="70*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="/Views/IconInventario.png" Grid.RowSpan="2"/>
+                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center"  Grid.ColumnSpan="2"  Grid.RowSpan="2">Inventario</Label>
+            </Grid>
+
+            <Grid Grid.Column="2" Background="#7FFFBE67">
+                <Grid.InputBindings>
+                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="2"/>
+                </Grid.InputBindings>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="70*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="/Views/IconProductos.png"/>
+                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center">Productos</Label>
+            </Grid>
+
+            <Grid Grid.Column="4" Background="#7FFFBE67">
+                <Grid.InputBindings>
+                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="3"/>
+                </Grid.InputBindings>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="70*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="/Views/IconTransacciones.png"/>
+                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center">Transacciones</Label>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="4" Margin="10,10,10,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="31*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="31*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="31*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Background="#7FFFBE67"  >
+                <Grid.InputBindings>
+                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="4"/>
+                </Grid.InputBindings>
+                <Grid.Style>
+                    <Style/>
+                </Grid.Style>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="70*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="/Views/Icon1.png"/>
+                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center">Inventario</Label>
+            </Grid>
+            <Grid Grid.Column="2" Background="#7FFFBE67">
+                <Grid.InputBindings>
+                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="5"/>
+                </Grid.InputBindings>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="70*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="/Views/Icon2.png"/>
+                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" Background="{x:Null}">Productos</Label>
+            </Grid>
+            <Grid Grid.Column="4" Background="#7FFFBE67">
+                <Grid.InputBindings>
+                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="6"/>
+                </Grid.InputBindings>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="70*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="/Views/IconAjustes.png"/>
+                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" HorizontalAlignment="Right" Width="171">Ajustes</Label>
+            </Grid>
+        </Grid>
+    </Grid>
+
+
+
+</UserControl>

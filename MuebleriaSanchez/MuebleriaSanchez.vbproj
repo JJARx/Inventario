@@ -47,4 +47,10 @@
     <Resource Include="Resources\logo.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Page Update="Views\ProductosView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+  </ItemGroup>
+
 </Project>
