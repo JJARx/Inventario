@@ -57,4 +57,10 @@
     </Page>
   </ItemGroup>
 
+  <ItemGroup>
+    <Page Update="Views\ProductosView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+  </ItemGroup>
+
 </Project>
