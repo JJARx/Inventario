@@ -141,6 +141,7 @@
                 <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" HorizontalAlignment="Right" Width="171">Ajustes</Label>
             </Grid>
         </Grid>
+        </Grid>
     </Grid>
 
 
