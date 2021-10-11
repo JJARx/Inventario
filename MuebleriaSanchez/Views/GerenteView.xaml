@@ -42,7 +42,7 @@
                         </Style>
                     </Button.Style>
                     <Button.Content>
-                        <Image Source="/Resources/AddIcon.png" Width="40" Height="40"/>
+                        <Image Source="/Resources/AddIcon.png" Width="30" Height="30"/>
                     </Button.Content>
                 </Button>
             </Grid>
