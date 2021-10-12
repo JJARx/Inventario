@@ -10,43 +10,107 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="10*"/>
-            <RowDefinition Height="80*"/>
-            <RowDefinition Height="10*"/>
+            <RowDefinition Height="90*"/>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" Visibility="Visible">
+        <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="10*"/>
-                <ColumnDefinition Width="75*"/>
-                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="70*"/>
+                <ColumnDefinition Width="20*"/>
             </Grid.ColumnDefinitions>
             <Button Grid.Column="0" Content="Regresar" Height="30"   FontWeight="Bold"/>
+            <Button  Grid.Column="2">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                    </Style>
+                </Button.Style>
+                <Button.Content>
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Source="/Resources/AddIcon.png" Width="20" Height="20"/>
+                        <Label>Agregar Empleado</Label>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            
         </Grid>
+
         <Grid Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="20*"/>
-                <ColumnDefinition Width="70*" />
-                <ColumnDefinition Width="20*"/>
-            </Grid.ColumnDefinitions>
-            <Grid Grid.Column="1">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="20*"/>
-                    <RowDefinition Height="80"/>
-                </Grid.RowDefinitions>
-                <Label Grid.Row="0" FontSize="40" VerticalAlignment="Top" Background="Transparent" Margin="148,10,147,0">Empleados</Label>
-                <Button  Grid.Column="0" Margin="362,17,90,213"  >
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="Transparent"/>
-                            <Setter Property="BorderThickness" Value="0"/>
-                        </Style>
-                    </Button.Style>
-                    <Button.Content>
-                        <Image Source="/Resources/AddIcon.png" Width="30" Height="30"/>
-                    </Button.Content>
-                </Button>
-            </Grid>
+            <ListView Margin="14,10,6,10" x:Name="lvEmpleados" ItemsSource="{Binding EmpleadosList}" HorizontalContentAlignment="Stretch">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Clave">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Label Content="{Binding Id}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Nombre">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Label Content="{Binding EmpleadoName}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Puesto"/>
+                        <GridViewColumn Header="Telefono">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Label Content="{Binding Price}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Correo">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Label Content="{Binding StringFormat=}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Clave">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Label Content="{Binding Id}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="20" Width="auto">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Height="20" Width="20">
+                                            <Button.Style>
+                                                <Style TargetType="Button">
+                                                    <Setter Property="Background" Value="Transparent"/>
+                                                    <Setter Property="BorderThickness" Value="0"/>
+                                                </Style>
+                                            </Button.Style>
+                                            <Button.Content>
+                                                <Image Source="/Resources/DelIcon.png" Width="20" Height="20"/>
+                                            </Button.Content>
+                                        </Button>
+                                        <Button Height="20" Width="20">
+                                            <Button.Style>
+                                                <Style TargetType="Button">
+                                                    <Setter Property="Background" Value="Transparent"/>
+                                                    <Setter Property="BorderThickness" Value="0"/>
+                                                </Style>
+                                            </Button.Style>
+                                            <Button.Content>
+                                                <Image Source="/Resources/EditIcon.png" Width="20" Height="20"/>
+                                            </Button.Content>
+                                        </Button>
+
+                                    </StackPanel>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
         </Grid>
     </Grid>
 </UserControl>
-
