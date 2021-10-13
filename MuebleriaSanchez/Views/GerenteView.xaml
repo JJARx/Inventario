@@ -48,14 +48,14 @@
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Nombre">
+                        <GridViewColumn Header="Nombre" Width="50">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <Label Content="{Binding EmpleadoName}"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Apellido"/>
+                        <GridViewColumn Header="Apellido" Width="50"/>
                         <GridViewColumn Header="Email">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
@@ -63,21 +63,21 @@
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Telefono">
+                        <GridViewColumn Header="Telefono" Width="60">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <Label Content="{Binding StringFormat=}"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Password">
+                        <GridViewColumn Header="Password" Width="60">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <Label Content="{Binding Id}"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Puesto" Width="auto">
+                        <GridViewColumn Header="Puesto" Width="50">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">
