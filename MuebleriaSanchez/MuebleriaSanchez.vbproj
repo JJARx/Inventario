@@ -48,6 +48,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\ProductosView - Copy.xaml.vb">
+      <DependentUpon>ProductosView.xaml.vb</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Views\ProductosMaderaView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
     <Page Update="Views\ProductosView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Page>
