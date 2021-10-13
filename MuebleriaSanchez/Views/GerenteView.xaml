@@ -30,7 +30,7 @@
                 <Button.Content>
                     <StackPanel Orientation="Horizontal" >
                         <Image Source="/Resources/AddIcon.png" Width="20" Height="20"/>
-                        <Label>Agregar Empleado</Label>
+                        <Label FontSize="15">Agregar Empleado</Label>
                     </StackPanel>
                 </Button.Content>
             </Button>
@@ -38,7 +38,7 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <ListView Margin="14,10,6,10" x:Name="lvEmpleados" ItemsSource="{Binding EmpleadosList}" HorizontalContentAlignment="Stretch">
+            <ListView Margin="60,10,60,20" x:Name="lvEmpleados" ItemsSource="{Binding EmpleadosList}" HorizontalContentAlignment="Stretch">
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Clave">
