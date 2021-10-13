@@ -25,13 +25,13 @@
                 <ColumnDefinition Width="30*"/>
                 <ColumnDefinition Width="70*"/>
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" Source="/Resources/sanchez.png" Margin="10,-16,66,90"/>
+            <Image Grid.Column="0" Source="/Resources/sanchez.png" Margin="10,-16,51,66"/>
 
         </Grid>
 
-        <Label FontSize="25" VerticalAlignment="Top" Margin="328,11,328,0" Grid.RowSpan="2"  >Productos</Label>
+        <Label FontSize="25" VerticalAlignment="Top" Margin="360,10,296,0" Grid.Row="1"  >Categorías</Label>
 
-        <Grid Grid.Row="3" Margin="10,10,10,10">
+        <Grid Grid.Row="4" Margin="10,0,10,20">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="31*"/>
                 <ColumnDefinition Width="3*"/>
@@ -40,29 +40,7 @@
                 <ColumnDefinition Width="31*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid Background="#7FFFBE67" Margin="219,-173,119,202" Grid.ColumnSpan="3">
-                <Grid.InputBindings>
-                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="3"/>
-                </Grid.InputBindings>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="30*"/>
-                    <ColumnDefinition Width="70*"/>
-                </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/IconTransacciones.png"/>
-                <Label FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="29,0,10,0" Height="41" RenderTransformOrigin="0.219,0.548">Categorias</Label>
-            </Grid>
-        </Grid>
-
-        <Grid Grid.Row="4" Margin="10,10,10,10">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="31*"/>
-                <ColumnDefinition Width="3*"/>
-                <ColumnDefinition Width="31*"/>
-                <ColumnDefinition Width="3*"/>
-                <ColumnDefinition Width="31*"/>
-            </Grid.ColumnDefinitions>
-
-            <Grid Grid.Column="0" Background="#7FFFBE67" Margin="0,35,69,-16"  >
+            <Grid Grid.Column="4" Background="#7FFFBE67" Margin="15,-111,54,129"  >
                 <Grid.InputBindings>
                     <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="4"/>
                 </Grid.InputBindings>
@@ -74,9 +52,9 @@
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
                 <Image Grid.Column="0" Source="/Views/Icon1.png"/>
-                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center">Atras</Label>
+                <Label FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="26,0,26,0">Económico</Label>
             </Grid>
-            <Grid Background="#7FFFBE67" Margin="0,-68,69,82">
+            <Grid Background="#7FFFBE67" Margin="30,-116,38,129" Grid.Column="2">
                 <Grid.InputBindings>
                     <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="5"/>
                 </Grid.InputBindings>
@@ -85,9 +63,9 @@
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
                 <Image Grid.Column="0" Source="/Views/Icon2.png"/>
-                <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,10,0">Eliminar</Label>
+                <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0">Tubular</Label>
             </Grid>
-            <Grid Background="#7FFFBE67" Margin="0,-174,69,189">
+            <Grid Background="#7FFFBE67" Margin="37,-116,30,129">
                 <Grid.InputBindings>
                     <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="6"/>
                 </Grid.InputBindings>
@@ -96,7 +74,7 @@
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
                 <Image Grid.Column="0" Source="/Views/IconAjustes.png"/>
-                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="171">Añadir</Label>
+                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="91">Madera</Label>
             </Grid>
         </Grid>
     </Grid>
