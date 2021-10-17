@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ViewModels\ProductosTubular2ViewModel.vb" />
+    <Compile Remove="ViewModels\ProductosTubularViewModel.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Alacena.JPG" />
     <None Remove="BancaJardi.png" />
     <None Remove="BancaRes.JPG" />
     <None Remove="BancoGiratorio.png" />
@@ -50,6 +56,7 @@
     <None Remove="MesaBanq.JPG" />
     <None Remove="MesaDeCto.JPG" />
     <None Remove="Peinador.JPG" />
+    <None Remove="Resources\Madera\Alacena.JPG" />
     <None Remove="Views\Icon1.png" />
     <None Remove="Views\Icon2.png" />
     <None Remove="Views\IconAjustes.png" />
@@ -60,6 +67,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Remove="Views\ProductosMaderaView.xaml" />
     <Page Remove="Views\ProductosView.xaml" />
   </ItemGroup>
 
@@ -84,6 +92,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Alacena.JPG" />
     <Resource Include="BancaJardi.png" />
     <Resource Include="BancaRes.JPG" />
     <Resource Include="BancoGiratorio.png" />
@@ -133,9 +142,18 @@
     <Resource Include="Resources\IconProductos.png" />
     <Resource Include="Resources\IconTransacciones.png" />
     <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\Madera\Alacena.JPG" />
+    <Resource Include="ViewModels\ProductosTubular2ViewModel.vb" />
+    <Resource Include="Views\ProductosMaderaView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Resource>
     <Resource Include="Views\ProductosView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ViewModels\ProductosTubularViewModel.vb" />
   </ItemGroup>
 
   <ItemGroup>
@@ -145,8 +163,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Page Update="Views\ProductosMaderaView.xaml">
+    <Page Update="Views\ProductosMadera2View.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ProductosTubular2View.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
 
