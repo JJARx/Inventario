@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ViewModels\ProductosEconomicoViewModel.vb" />
+    <Compile Remove="ViewModels\ProductosMadera2ViewModel.vb" />
     <Compile Remove="ViewModels\ProductosTubular2ViewModel.vb" />
     <Compile Remove="ViewModels\ProductosTubularViewModel.vb" />
   </ItemGroup>
@@ -204,6 +206,8 @@
     <Resource Include="Resources\Tubular\SillaJardi.png" />
     <Resource Include="Resources\Tubular\ToalleroCh.JPG" />
     <Resource Include="Resources\Tubular\ToalleroGde.JPG" />
+    <Resource Include="ViewModels\ProductosMadera2ViewModel.vb" />
+    <Resource Include="ViewModels\ProductosEconomicoViewModel.vb" />
     <Resource Include="ViewModels\ProductosTubular2ViewModel.vb" />
     <Resource Include="Views\ProductosMaderaView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
@@ -226,6 +230,10 @@
 
   <ItemGroup>
     <Page Update="Views\ProductosMadera2View.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ProductosEconomicoView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
     </Page>

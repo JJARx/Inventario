@@ -1,3 +1,3 @@
-﻿Public Class ProductosTubularViewModel
+﻿Public Class Productos2ViewModel
 
 End Class
