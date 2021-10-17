@@ -25,11 +25,11 @@
                 <ColumnDefinition Width="30*"/>
                 <ColumnDefinition Width="70*"/>
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" Source="/Resources/sanchez.png" Margin="10,-16,51,66"/>
+            <Image Grid.Column="0" Source="/Resources/sanchez.png" Margin="10,-16,10,18"/>
 
         </Grid>
 
-        <Label FontSize="25" VerticalAlignment="Top" Margin="360,10,296,0" Grid.Row="1"  >Categorías</Label>
+        <Label FontSize="25" VerticalAlignment="Top" Margin="400,46,256,0" Grid.Row="1"  >Categorías</Label>
 
         <Grid Grid.Row="4" Margin="10,0,10,20">
             <Grid.ColumnDefinitions>
@@ -76,6 +76,39 @@
                 <Image Grid.Column="0" Source="/Views/IconAjustes.png"/>
                 <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="91">Madera</Label>
             </Grid>
+        </Grid>
+        <Grid Background="#7FFFBE67" Margin="269,6,273,26" Grid.Row="4">
+            <Grid.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="5"/>
+            </Grid.InputBindings>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="70*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0" Content="Regresar al menu"/>
+        </Grid>
+        <Grid Background="#7FFFBE67" Margin="46,6,578,26" Grid.Row="4">
+            <Grid.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="5"/>
+            </Grid.InputBindings>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="70*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0" Content="Madera 2"/>
+        </Grid>
+        <Grid Background="#7FFFBE67" Margin="567,6,57,28" Grid.Row="4">
+            <Grid.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="5"/>
+            </Grid.InputBindings>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="70*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0" Content="Tubular 2"/>
         </Grid>
     </Grid>
 

@@ -8,6 +8,48 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="BancaJardi.png" />
+    <None Remove="BancaRes.JPG" />
+    <None Remove="BancoGiratorio.png" />
+    <None Remove="Bases.png" />
+    <None Remove="Buro.JPG" />
+    <None Remove="BuroVenecia.JPG" />
+    <None Remove="BurrodeMad.JPG" />
+    <None Remove="Burrodeplanchar.JPG" />
+    <None Remove="Cabecera.JPG" />
+    <None Remove="CabeceraItalia.JPG" />
+    <None Remove="CabeceraRoma.JPG" />
+    <None Remove="Cajonerade5.JPG" />
+    <None Remove="Cajonerade5Gde.JPG" />
+    <None Remove="CajoneraInf.JPG" />
+    <None Remove="CajoneraInfCol.JPG" />
+    <None Remove="CentrodeEntCar.JPG" />
+    <None Remove="CentrodeEntHid.JPG" />
+    <None Remove="CentrodeEntMad.JPG" />
+    <None Remove="CentrodeEntrCar.JPG" />
+    <None Remove="CentrodeEntZap.JPG" />
+    <None Remove="CentrodeEntZrg.JPG" />
+    <None Remove="ClosetGde.JPG" />
+    <None Remove="ClosetKing.JPG" />
+    <None Remove="ClosetMed.JPG" />
+    <None Remove="ClosetTub.JPG" />
+    <None Remove="CocinaInt.JPG" />
+    <None Remove="Comedor.JPG" />
+    <None Remove="EspejoCami.JPG" />
+    <None Remove="EspejoSofi.JPG" />
+    <None Remove="Esquinero.JPG" />
+    <None Remove="FregaderoDob.JPG" />
+    <None Remove="FruteroCh.JPG" />
+    <None Remove="JuegoDeRecib.JPG" />
+    <None Remove="Librero.JPG" />
+    <None Remove="MecedoraAca.JPG" />
+    <None Remove="MecedoraCh.JPG" />
+    <None Remove="MecedoraGde.png" />
+    <None Remove="MecedoraLupita.png" />
+    <None Remove="MecedoraResGde.JPG" />
+    <None Remove="MesaBanq.JPG" />
+    <None Remove="MesaDeCto.JPG" />
+    <None Remove="Peinador.JPG" />
     <None Remove="Views\Icon1.png" />
     <None Remove="Views\Icon2.png" />
     <None Remove="Views\IconAjustes.png" />
@@ -15,6 +57,10 @@
     <None Remove="Views\IconProductos.png" />
     <None Remove="Views\IconTransacciones.png" />
     <None Remove="Views\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Views\ProductosView.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,6 +84,48 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="BancaJardi.png" />
+    <Resource Include="BancaRes.JPG" />
+    <Resource Include="BancoGiratorio.png" />
+    <Resource Include="Bases.png" />
+    <Resource Include="Buro.JPG" />
+    <Resource Include="BuroVenecia.JPG" />
+    <Resource Include="BurrodeMad.JPG" />
+    <Resource Include="Burrodeplanchar.JPG" />
+    <Resource Include="Cabecera.JPG" />
+    <Resource Include="CabeceraItalia.JPG" />
+    <Resource Include="CabeceraRoma.JPG" />
+    <Resource Include="Cajonerade5.JPG" />
+    <Resource Include="Cajonerade5Gde.JPG" />
+    <Resource Include="CajoneraInf.JPG" />
+    <Resource Include="CajoneraInfCol.JPG" />
+    <Resource Include="CentrodeEntCar.JPG" />
+    <Resource Include="CentrodeEntHid.JPG" />
+    <Resource Include="CentrodeEntMad.JPG" />
+    <Resource Include="CentrodeEntrCar.JPG" />
+    <Resource Include="CentrodeEntZap.JPG" />
+    <Resource Include="CentrodeEntZrg.JPG" />
+    <Resource Include="ClosetGde.JPG" />
+    <Resource Include="ClosetKing.JPG" />
+    <Resource Include="ClosetMed.JPG" />
+    <Resource Include="ClosetTub.JPG" />
+    <Resource Include="CocinaInt.JPG" />
+    <Resource Include="Comedor.JPG" />
+    <Resource Include="EspejoCami.JPG" />
+    <Resource Include="EspejoSofi.JPG" />
+    <Resource Include="Esquinero.JPG" />
+    <Resource Include="FregaderoDob.JPG" />
+    <Resource Include="FruteroCh.JPG" />
+    <Resource Include="JuegoDeRecib.JPG" />
+    <Resource Include="Librero.JPG" />
+    <Resource Include="MecedoraAca.JPG" />
+    <Resource Include="MecedoraCh.JPG" />
+    <Resource Include="MecedoraGde.png" />
+    <Resource Include="MecedoraLupita.png" />
+    <Resource Include="MecedoraResGde.JPG" />
+    <Resource Include="MesaBanq.JPG" />
+    <Resource Include="MesaDeCto.JPG" />
+    <Resource Include="Peinador.JPG" />
     <Resource Include="Resources\Icon1.png" />
     <Resource Include="Resources\Icon2.png" />
     <Resource Include="Resources\IconAjustes.png" />
@@ -45,6 +133,9 @@
     <Resource Include="Resources\IconProductos.png" />
     <Resource Include="Resources\IconTransacciones.png" />
     <Resource Include="Resources\logo.png" />
+    <Resource Include="Views\ProductosView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -55,9 +146,6 @@
 
   <ItemGroup>
     <Page Update="Views\ProductosMaderaView.xaml">
-      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
-    </Page>
-    <Page Update="Views\ProductosView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Page>
   </ItemGroup>
