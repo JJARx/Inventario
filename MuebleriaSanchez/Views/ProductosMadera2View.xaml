@@ -29,7 +29,7 @@
 
         </Grid>
 
-        <Label FontSize="25" VerticalAlignment="Top" Margin="358,0,347,0" Grid.RowSpan="2"  >Tubular</Label>
+        <Label FontSize="25" VerticalAlignment="Top" Margin="335,0,347,0" Grid.RowSpan="2"  >Madera 2</Label>
 
         <Grid Grid.Row="4" Margin="10,44,10,9" Grid.RowSpan="2">
             <Grid.ColumnDefinitions>
