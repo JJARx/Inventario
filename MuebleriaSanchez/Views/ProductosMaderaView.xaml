@@ -25,13 +25,13 @@
                 <ColumnDefinition Width="30*"/>
                 <ColumnDefinition Width="70*"/>
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" Source="/Resources/sanchez.png" Margin="10,-16,51,66"/>
+            <Image Grid.Column="0" Source="/Resources/sanchez.png" Margin="10,-13,81,114"/>
 
         </Grid>
 
-        <Label FontSize="25" VerticalAlignment="Top" Margin="360,10,296,0" Grid.Row="1"  >Categorías</Label>
+        <Label FontSize="25" VerticalAlignment="Top" Margin="358,10,344,0" Grid.RowSpan="2"  >Madera</Label>
 
-        <Grid Grid.Row="4" Margin="10,0,10,20">
+        <Grid Grid.Row="4" Margin="10,44,10,0" Grid.RowSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="31*"/>
                 <ColumnDefinition Width="3*"/>
@@ -40,7 +40,7 @@
                 <ColumnDefinition Width="31*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="4" Background="#7FFFBE67" Margin="15,-111,54,129"  >
+            <Grid Grid.Column="4" Background="#7FFFBE67" Margin="34,22,34,7"  >
                 <Grid.InputBindings>
                     <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="4"/>
                 </Grid.InputBindings>
@@ -52,9 +52,9 @@
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
                 <Image Grid.Column="0" Source="/Views/Icon1.png"/>
-                <Label FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="26,0,26,0">Económico</Label>
+                <Label FontSize="20" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="31,0,20,0">Económico</Label>
             </Grid>
-            <Grid Background="#7FFFBE67" Margin="30,-116,38,129" Grid.Column="2">
+            <Grid Background="#7FFFBE67" Margin="34,22,34,7" Grid.Column="2">
                 <Grid.InputBindings>
                     <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="5"/>
                 </Grid.InputBindings>
@@ -63,9 +63,9 @@
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
                 <Image Grid.Column="0" Source="/Views/Icon2.png"/>
-                <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0">Tubular</Label>
+                <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0">Regresar</Label>
             </Grid>
-            <Grid Background="#7FFFBE67" Margin="37,-116,30,129">
+            <Grid Background="#7FFFBE67" Margin="34,22,33,7">
                 <Grid.InputBindings>
                     <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="6"/>
                 </Grid.InputBindings>
@@ -74,9 +74,31 @@
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
                 <Image Grid.Column="0" Source="/Views/IconAjustes.png"/>
-                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="91">Madera</Label>
+                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="91">Tubular</Label>
             </Grid>
         </Grid>
+        <Image Margin="10,50,705,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Alacena.JPG"/>
+        <Image Margin="108,50,583,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Bases.png"/>
+        <Image Margin="229,50,473,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Buro.JPG"/>
+        <Image Margin="338,50,323,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/BuroVenecia.JPG"/>
+        <Image Margin="488,50,228,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/BurrodeMad.JPG"/>
+        <Image Margin="583,50,108,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Cabecera.JPG"/>
+        <Image Margin="704,50,10,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/CabeceraItalia.JPG"/>
+        <Image Margin="10,5,705,56" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CabeceraRoma.JPG" Grid.RowSpan="2"/>
+        <Image Margin="108,5,620,56" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/Cajonerade5.JPG" Grid.RowSpan="2"/>
+        <Image Margin="196,154,532,64" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Cajonerade5Gde.JPG"/>
+        <Image Margin="278,0,450,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CajoneraInf.JPG"/>
+        <Image Margin="358,0,355,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CajoneraInfCol.JPG"/>
+        <Image Margin="460,0,212,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntCar.JPG"/>
+        <Image Margin="594,0,119,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntMad.JPG"/>
+        <Image Margin="693,0,20,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntHid.JPG"/>
+        <Image Margin="118,44,598,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntrCar.JPG"/>
+        <Image Margin="18,46,696,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntZap.JPG"/>
+        <Image Margin="219,46,505,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntZrg.JPG"/>
+        <Image Margin="308,46,415,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/ClosetGde.JPG"/>
+        <Image Margin="402,46,310,32" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/ClosetKing.JPG"/>
+        <Image Margin="506,46,221,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/ClosetMed.JPG"/>
+        <Image Margin="594,60,21,50" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/CocinaInt.JPG"/>
     </Grid>
 
 
