@@ -45,6 +45,7 @@
     <None Remove="EspejoSofi.JPG" />
     <None Remove="Esquinero.JPG" />
     <None Remove="FregaderoDob.JPG" />
+    <None Remove="FregaderoSen.JPG" />
     <None Remove="FruteroCh.JPG" />
     <None Remove="JuegoDeRecib.JPG" />
     <None Remove="Librero.JPG" />
@@ -154,6 +155,7 @@
     <Resource Include="EspejoSofi.JPG" />
     <Resource Include="Esquinero.JPG" />
     <Resource Include="FregaderoDob.JPG" />
+    <Resource Include="FregaderoSen.JPG" />
     <Resource Include="FruteroCh.JPG" />
     <Resource Include="JuegoDeRecib.JPG" />
     <Resource Include="Librero.JPG" />

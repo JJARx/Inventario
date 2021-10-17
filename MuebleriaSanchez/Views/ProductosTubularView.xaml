@@ -52,7 +52,7 @@
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
                 <Image Grid.Column="0" Source="/Views/Icon1.png"/>
-                <Label FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="31,0,19,0">Económico</Label>
+                <Label FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="31,0,19,0">Tubular 2</Label>
             </Grid>
             <Grid Background="#7FFFBE67" Margin="34,10,34,3" Grid.Column="2">
                 <Grid.InputBindings>

@@ -52,7 +52,7 @@
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
                 <Image Grid.Column="0" Source="/Views/Icon1.png"/>
-                <Label FontSize="20" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="31,0,20,0">Económico</Label>
+                <Label FontSize="20" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="31,0,20,0">Madera 2</Label>
             </Grid>
             <Grid Background="#7FFFBE67" Margin="34,22,34,7" Grid.Column="2">
                 <Grid.InputBindings>
