@@ -57,6 +57,35 @@
     <None Remove="MesaDeCto.JPG" />
     <None Remove="Peinador.JPG" />
     <None Remove="Resources\Madera\Alacena.JPG" />
+    <None Remove="Resources\Tubular\BancaJardi.png" />
+    <None Remove="Resources\Tubular\BancaRes.JPG" />
+    <None Remove="Resources\Tubular\BancoGiratorio.png" />
+    <None Remove="Resources\Tubular\Burrodeplanchar.JPG" />
+    <None Remove="Resources\Tubular\ClosetTub.JPG" />
+    <None Remove="Resources\Tubular\Comedor.JPG" />
+    <None Remove="Resources\Tubular\Esquinero.JPG" />
+    <None Remove="Resources\Tubular\FruteroCh.JPG" />
+    <None Remove="Resources\Tubular\FruteroGde.JPG" />
+    <None Remove="Resources\Tubular\JuegoDeRecib.JPG" />
+    <None Remove="Resources\Tubular\Librero.JPG" />
+    <None Remove="Resources\Tubular\MecedoraAca.JPG" />
+    <None Remove="Resources\Tubular\MecedoraCh.JPG" />
+    <None Remove="Resources\Tubular\MecedoraGde.png" />
+    <None Remove="Resources\Tubular\MecedoraLupita.png" />
+    <None Remove="Resources\Tubular\MecedoraResGde.JPG" />
+    <None Remove="Resources\Tubular\MesaBanq.JPG" />
+    <None Remove="Resources\Tubular\MesaDeCto.JPG" />
+    <None Remove="Resources\Tubular\MesaPleg.JPG" />
+    <None Remove="Resources\Tubular\MesedoraResCh.JPG" />
+    <None Remove="Resources\Tubular\Modulode4.JPG" />
+    <None Remove="Resources\Tubular\PortaChico.JPG" />
+    <None Remove="Resources\Tubular\Portaconcanas.JPG" />
+    <None Remove="Resources\Tubular\PortaDoble.JPG" />
+    <None Remove="Resources\Tubular\SillaFlor.JPG" />
+    <None Remove="Resources\Tubular\SillaGrecia.JPG" />
+    <None Remove="Resources\Tubular\SillaJardi.png" />
+    <None Remove="Resources\Tubular\ToalleroCh.JPG" />
+    <None Remove="Resources\Tubular\ToalleroGde.JPG" />
     <None Remove="Views\Icon1.png" />
     <None Remove="Views\Icon2.png" />
     <None Remove="Views\IconAjustes.png" />
@@ -68,6 +97,7 @@
 
   <ItemGroup>
     <Page Remove="Views\ProductosMaderaView.xaml" />
+    <Page Remove="Views\ProductosTubularView.xaml" />
     <Page Remove="Views\ProductosView.xaml" />
   </ItemGroup>
 
@@ -143,10 +173,40 @@
     <Resource Include="Resources\IconTransacciones.png" />
     <Resource Include="Resources\logo.png" />
     <Resource Include="Resources\Madera\Alacena.JPG" />
+    <Resource Include="Resources\Tubular\BancaJardi.png" />
+    <Resource Include="Resources\Tubular\BancaRes.JPG" />
+    <Resource Include="Resources\Tubular\BancoGiratorio.png" />
+    <Resource Include="Resources\Tubular\Burrodeplanchar.JPG" />
+    <Resource Include="Resources\Tubular\ClosetTub.JPG" />
+    <Resource Include="Resources\Tubular\Comedor.JPG" />
+    <Resource Include="Resources\Tubular\Esquinero.JPG" />
+    <Resource Include="Resources\Tubular\FruteroCh.JPG" />
+    <Resource Include="Resources\Tubular\FruteroGde.JPG" />
+    <Resource Include="Resources\Tubular\JuegoDeRecib.JPG" />
+    <Resource Include="Resources\Tubular\Librero.JPG" />
+    <Resource Include="Resources\Tubular\MecedoraAca.JPG" />
+    <Resource Include="Resources\Tubular\MecedoraCh.JPG" />
+    <Resource Include="Resources\Tubular\MecedoraGde.png" />
+    <Resource Include="Resources\Tubular\MecedoraLupita.png" />
+    <Resource Include="Resources\Tubular\MecedoraResGde.JPG" />
+    <Resource Include="Resources\Tubular\MesaBanq.JPG" />
+    <Resource Include="Resources\Tubular\MesaDeCto.JPG" />
+    <Resource Include="Resources\Tubular\MesaPleg.JPG" />
+    <Resource Include="Resources\Tubular\MesedoraResCh.JPG" />
+    <Resource Include="Resources\Tubular\Modulode4.JPG" />
+    <Resource Include="Resources\Tubular\PortaChico.JPG" />
+    <Resource Include="Resources\Tubular\Portaconcanas.JPG" />
+    <Resource Include="Resources\Tubular\PortaDoble.JPG" />
+    <Resource Include="Resources\Tubular\SillaFlor.JPG" />
+    <Resource Include="Resources\Tubular\SillaGrecia.JPG" />
+    <Resource Include="Resources\Tubular\SillaJardi.png" />
+    <Resource Include="Resources\Tubular\ToalleroCh.JPG" />
+    <Resource Include="Resources\Tubular\ToalleroGde.JPG" />
     <Resource Include="ViewModels\ProductosTubular2ViewModel.vb" />
     <Resource Include="Views\ProductosMaderaView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Resource>
+    <Resource Include="Views\ProductosTubularView.xaml" />
     <Resource Include="Views\ProductosView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Resource>
