@@ -77,18 +77,18 @@
                 <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="91">Tubular</Label>
             </Grid>
         </Grid>
-        <Image Margin="10,50,705,10" Grid.Row="1" Stretch="Fill" Source="Resources/Alacena.JPG"/>
-        <Image Margin="108,50,583,10" Grid.Row="1" Stretch="Fill" Source="Resources/Bases.png"/>
-        <Image Margin="229,50,473,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Buro.JPG"/>
-        <Image Margin="338,50,323,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/BuroVenecia.JPG"/>
-        <Image Margin="488,50,228,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/BurrodeMad.JPG"/>
-        <Image Margin="583,50,108,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Cabecera.JPG"/>
-        <Image Margin="704,50,10,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/CabeceraItalia.JPG"/>
-        <Image Margin="10,5,705,56" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CabeceraRoma.JPG" Grid.RowSpan="2"/>
-        <Image Margin="108,5,620,56" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/Cajonerade5.JPG" Grid.RowSpan="2"/>
-        <Image Margin="196,154,532,64" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Cajonerade5Gde.JPG"/>
-        <Image Margin="278,0,450,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CajoneraInf.JPG"/>
-        <Image Margin="358,0,355,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CajoneraInfCol.JPG"/>
+        <Image Margin="10,50,705,10" Grid.Row="1" Stretch="Fill"  Source=" /Resources/Madera/Alacena.JPG"/>
+        <Image Margin="108,50,583,10" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/Bases.png"/>
+        <Image Margin="229,50,473,10" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/Buro.JPG"/>
+        <Image Margin="338,50,323,10" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/BuroVenecia.JPG"/>
+        <Image Margin="488,50,228,10" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/BurrodeMad.JPG"/>
+        <Image Margin="583,50,108,10" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/Cabecera.JPG"/>
+        <Image Margin="704,50,10,10" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/CabeceraItalia.JPG"/>
+        <Image Margin="10,5,705,56" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/CabeceraRoma.JPG" Grid.RowSpan="2"/>
+        <Image Margin="108,5,620,56" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/Cajonerade5.JPG" Grid.RowSpan="2"/>
+        <Image Margin="196,154,532,64" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/Cajonerade5Gde.JPG"/>
+        <Image Margin="278,0,450,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/CajoneraInf.JPG"/>
+        <Image Margin="358,0,355,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/CajoneraInfCol.JPG"/>
         <Image Margin="460,0,212,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntCar.JPG"/>
         <Image Margin="594,0,119,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntMad.JPG"/>
         <Image Margin="693,0,20,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntHid.JPG"/>
