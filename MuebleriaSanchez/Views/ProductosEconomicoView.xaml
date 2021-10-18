@@ -77,11 +77,11 @@
                 <Label FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="76" Grid.ColumnSpan="2" Margin="51,0,0,0">Tubular</Label>
             </Grid>
         </Grid>
-        <Image Margin="10,140,662,54" Stretch="Fill" Source="pack://siteoforigin:,,,/CajoneraLeo.JPG" Grid.Row="1" Grid.RowSpan="3"/>
-        <Image Margin="187,140,485,54" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/CajoneraMau.JPG"/>
-        <Image Margin="376,132,326,46" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/PeinadorCata.png"/>
-        <Image Margin="538,132,164,46" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/PeinadorIsa.png"/>
-        <Image Margin="692,132,10,46" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/PeinadorMed.JPG"/>
+        <Image Margin="10,140,662,54" Stretch="Fill" Source="/Resources/Económico/CajoneraLeo.JPG" Grid.Row="1" Grid.RowSpan="3"/>
+        <Image Margin="187,140,485,54" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Económico/CajoneraMau.JPG"/>
+        <Image Margin="376,132,326,46" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Económico/PeinadorCata.png"/>
+        <Image Margin="538,132,164,46" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Económico/PeinadorIsa.png"/>
+        <Image Margin="692,132,10,46" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Económico/PeinadorMed.JPG"/>
     </Grid>
 
 

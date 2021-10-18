@@ -89,16 +89,16 @@
         <Image Margin="196,154,532,64" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/Cajonerade5Gde.JPG"/>
         <Image Margin="278,0,450,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/CajoneraInf.JPG"/>
         <Image Margin="358,0,355,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/CajoneraInfCol.JPG"/>
-        <Image Margin="460,0,212,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntCar.JPG"/>
-        <Image Margin="594,0,119,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntMad.JPG"/>
-        <Image Margin="693,0,20,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntHid.JPG"/>
-        <Image Margin="118,44,598,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntrCar.JPG"/>
-        <Image Margin="18,46,696,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntZap.JPG"/>
-        <Image Margin="219,46,505,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/CentrodeEntZrg.JPG"/>
-        <Image Margin="308,46,415,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/ClosetGde.JPG"/>
-        <Image Margin="402,46,310,32" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/ClosetKing.JPG"/>
-        <Image Margin="506,46,221,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/ClosetMed.JPG"/>
-        <Image Margin="594,60,21,50" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/CocinaInt.JPG"/>
+        <Image Margin="460,0,212,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/CentrodeEntCar.JPG"/>
+        <Image Margin="594,0,119,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/CentrodeEntMad.JPG"/>
+        <Image Margin="693,0,20,64" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/CentrodeEntHid.JPG"/>
+        <Image Margin="118,44,598,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/CentrodeEntrCar.JPG"/>
+        <Image Margin="18,46,696,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/CentrodeEntZap.JPG"/>
+        <Image Margin="219,46,505,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/CentrodeEntZrg.JPG"/>
+        <Image Margin="308,46,415,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/ClosetGde.JPG"/>
+        <Image Margin="402,46,310,32" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/ClosetKing.JPG"/>
+        <Image Margin="506,46,221,34" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/ClosetMed.JPG"/>
+        <Image Margin="594,60,21,50" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/CocinaInt.JPG"/>
     </Grid>
 
 

@@ -77,7 +77,17 @@
                 <Label FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="112" Grid.ColumnSpan="2" Margin="32,0,0,0">Económico</Label>
             </Grid>
         </Grid>
-        <Image Margin="394,55,318,90" Grid.RowSpan="3" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/ClosetKing.JPG"/>
+        <Image Margin="10,46,719,31" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/EspejoCami.JPG"/>
+        <Image Margin="94,46,635,31" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/EspejoSofi.JPG"/>
+        <Image Margin="177,46,552,31" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/FregaderoDob.JPG"/>
+        <Image Margin="264,46,465,31" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/FregaderoSen.JPG"/>
+        <Image Margin="264,46,465,31" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/MicroAlacena.JPG"/>
+        <Image Margin="348,56,381,42" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/MuebleCeb.JPG"/>
+        <Image Margin="432,46,297,31" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/MuebleparaMicr.JPG"/>
+        <Image Margin="515,46,214,31" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/Peinador.JPG"/>
+        <Image Margin="598,46,131,32" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/PeinadorCh.JPG"/>
+        <Image Margin="683,46,46,32" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/PeinadorconRep.JPG"/>
+        <Image Margin="10,152,719,84" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/PeinadorInfCol.JPG" Grid.RowSpan="3"/>
     </Grid>
 
 
