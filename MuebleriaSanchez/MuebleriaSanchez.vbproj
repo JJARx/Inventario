@@ -8,11 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="ViewModels\ProductosEconomicoViewModel.vb" />
-    <Compile Remove="ViewModels\ProductosMadera2ViewModel.vb" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Remove="Alacena.JPG" />
     <None Remove="BancaJardi.png" />
     <None Remove="BancaRes.JPG" />
@@ -204,8 +199,6 @@
     <Resource Include="Resources\Tubular\SillaJardi.png" />
     <Resource Include="Resources\Tubular\ToalleroCh.JPG" />
     <Resource Include="Resources\Tubular\ToalleroGde.JPG" />
-    <Resource Include="ViewModels\ProductosMadera2ViewModel.vb" />
-    <Resource Include="ViewModels\ProductosEconomicoViewModel.vb" />
     <Resource Include="Views\ProductosView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Resource>
