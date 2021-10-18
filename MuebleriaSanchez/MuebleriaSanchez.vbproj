@@ -205,12 +205,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\ProductosView - Copy.xaml.vb">
-      <DependentUpon>ProductosView.xaml.vb</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <Page Update="Views\ProductosEconomicoView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
