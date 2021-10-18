@@ -1,3 +1,3 @@
-﻿Public Class HomeView
+﻿Public Class ProductosView
 
 End Class

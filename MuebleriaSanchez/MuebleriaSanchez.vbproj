@@ -98,7 +98,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Page Remove="Views\ProductosMaderaView.xaml" />
     <Page Remove="Views\ProductosView.xaml" />
   </ItemGroup>
 
@@ -207,9 +206,6 @@
     <Resource Include="Resources\Tubular\ToalleroGde.JPG" />
     <Resource Include="ViewModels\ProductosMadera2ViewModel.vb" />
     <Resource Include="ViewModels\ProductosEconomicoViewModel.vb" />
-    <Resource Include="Views\ProductosMaderaView.xaml">
-      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
-    </Resource>
     <Resource Include="Views\ProductosView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Resource>
@@ -222,6 +218,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Update="Views\ProductosMaderaView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\ProductosTubular2View.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Page>
