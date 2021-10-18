@@ -218,6 +218,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Update="Views\ProductosMadera2View.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\ProductosMaderaView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
@@ -227,10 +231,6 @@
     </Page>
     <Page Update="Views\ProductosTubularView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
-    </Page>
-    <Page Update="Views\ProductosMadera2View.xaml">
-      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
-      <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ProductosEconomicoView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
