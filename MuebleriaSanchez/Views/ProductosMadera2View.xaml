@@ -87,7 +87,22 @@
         <Image Margin="515,46,214,31" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/Peinador.JPG"/>
         <Image Margin="598,46,131,32" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/PeinadorCh.JPG"/>
         <Image Margin="683,46,46,32" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/PeinadorconRep.JPG"/>
-        <Image Margin="10,152,719,84" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/PeinadorInfCol.JPG" Grid.RowSpan="3"/>
+        <Image Margin="10,152,719,74" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/PeinadorInfCol.JPG" Grid.RowSpan="3"/>
+        <Image Margin="90,152,592,74" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/PeinadorMaripo.png" Grid.RowSpan="3"/>
+        <Image Margin="216,152,512,74" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/PeinadorPau.JPG" Grid.RowSpan="3"/>
+        <Image Margin="297,142,431,74" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/RoperoCandy.JPG" Grid.RowSpan="3"/>
+        <Image Margin="381,152,347,74" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/RoperoEva.JPG" Grid.RowSpan="3"/>
+        <Image Margin="466,142,262,74" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/RoperoFer.JPG" Grid.RowSpan="3"/>
+        <Image Margin="549,142,179,74" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/RoperoFerInfCol.JPG" Grid.RowSpan="3"/>
+        <Image Margin="632,142,96,74" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/RoperoInf.JPG" Grid.RowSpan="3"/>
+        <Image Margin="714,142,14,74" Grid.Row="1" Stretch="Fill" Source="/Resources/Madera/RoperoInfCol.JPG" Grid.RowSpan="3"/>
+        <Image Margin="46,34,682,46" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/RoperoKari.JPG" Grid.RowSpan="2"/>
+        <Image Margin="140,34,588,46" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/RoperoLuna.JPG" Grid.RowSpan="2"/>
+        <Image Margin="239,34,476,46" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/RoperoLupi.JPG" Grid.RowSpan="2"/>
+        <Image Margin="348,34,367,46" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/RoperoMaye.JPG" Grid.RowSpan="2"/>
+        <Image Margin="452,34,262,46" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/RoperoMty.JPG" Grid.RowSpan="2"/>
+        <Image Margin="559,34,155,46" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/RoperoPao.JPG" Grid.RowSpan="2"/>
+        <Image Margin="664,34,50,46" Grid.Row="3" Stretch="Fill" Source="/Resources/Madera/VitrinaGde.JPG" Grid.RowSpan="2"/>
     </Grid>
 
 
