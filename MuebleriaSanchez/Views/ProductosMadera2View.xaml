@@ -77,7 +77,7 @@
                 <Label FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="112" Grid.ColumnSpan="2" Margin="32,0,0,0">Económico</Label>
             </Grid>
         </Grid>
-
+        <Image Margin="394,55,318,90" Grid.RowSpan="3" Grid.Row="2" Stretch="Fill" Source="/Resources/Madera/ClosetKing.JPG"/>
     </Grid>
 
 

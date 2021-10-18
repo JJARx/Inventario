@@ -59,6 +59,7 @@
     <None Remove="MesaBanq.JPG" />
     <None Remove="MesaDeCto.JPG" />
     <None Remove="Peinador.JPG" />
+    <None Remove="Resources\Económico\PeinadorCata.png" />
     <None Remove="Resources\Madera\Alacena.JPG" />
     <None Remove="Resources\Tubular\BancaJardi.png" />
     <None Remove="Resources\Tubular\BancaRes.JPG" />
@@ -169,6 +170,7 @@
     <Resource Include="MesaBanq.JPG" />
     <Resource Include="MesaDeCto.JPG" />
     <Resource Include="Peinador.JPG" />
+    <Resource Include="Resources\Económico\PeinadorCata.png" />
     <Resource Include="Resources\Icon1.png" />
     <Resource Include="Resources\Icon2.png" />
     <Resource Include="Resources\IconAjustes.png" />

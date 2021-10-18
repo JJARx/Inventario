@@ -93,6 +93,14 @@
         <Image Margin="489,150,202,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/MecedoraLupita.png"/>
         <Image Margin="610,150,112,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/MecedoraResGde.JPG"/>
         <Image Margin="707,8,10,76" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="pack://siteoforigin:,,,/MesaBanq.JPG"/>
+        <Image Margin="44,34,656,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/MuebleriaSanchez;component/MesaDeCto.JPG"/>
+        <Image Margin="162,34,522,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/MesedoraResCh.JPG"/>
+        <Image Margin="296,34,454,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/Modulode4.JPG"/>
+        <Image Margin="364,34,364,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/PortaChico.JPG"/>
+        <Image Margin="463,34,280,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/Portaconcanas.JPG"/>
+        <Image Margin="540,34,202,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/PortaDoble.JPG"/>
+        <Image Margin="622,34,112,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/SillaFlor.JPG"/>
+        <Image Margin="707,34,27,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="pack://siteoforigin:,,,/SillaGrecia.JPG"/>
     </Grid>
 
 
