@@ -40,7 +40,7 @@
                 <ColumnDefinition Width="31*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="4" Background="#7FFFBE67" Margin="15,-111,54,129"  >
+            <Grid Grid.Column="2" Background="#7FFFBE67" Margin="40,-111,29,129"  >
                 <Grid.InputBindings>
                     <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="4"/>
                 </Grid.InputBindings>
@@ -54,7 +54,7 @@
                 <Image Grid.Column="0" Source="/Views/Icon1.png"/>
                 <Label FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="26,0,26,0">Económico</Label>
             </Grid>
-            <Grid Background="#7FFFBE67" Margin="30,-116,38,129" Grid.Column="2">
+            <Grid Background="#7FFFBE67" Margin="23,-116,45,129" Grid.Column="4">
                 <Grid.InputBindings>
                     <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="5"/>
                 </Grid.InputBindings>
@@ -86,7 +86,7 @@
                 <ColumnDefinition Width="70*"/>
             </Grid.ColumnDefinitions>
 
-            <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0" Content="Regresar al menu"/>
+            <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0" Content="Regresar al menú"/>
         </Grid>
         <Grid Background="#7FFFBE67" Margin="46,6,578,26" Grid.Row="4">
             <Grid.InputBindings>
