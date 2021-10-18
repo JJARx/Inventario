@@ -77,8 +77,8 @@
                 <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="91">Tubular</Label>
             </Grid>
         </Grid>
-        <Image Margin="10,50,705,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Alacena.JPG"/>
-        <Image Margin="108,50,583,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Bases.png"/>
+        <Image Margin="10,50,705,10" Grid.Row="1" Stretch="Fill" Source="Resources/Alacena.JPG"/>
+        <Image Margin="108,50,583,10" Grid.Row="1" Stretch="Fill" Source="Resources/Bases.png"/>
         <Image Margin="229,50,473,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/Buro.JPG"/>
         <Image Margin="338,50,323,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/BuroVenecia.JPG"/>
         <Image Margin="488,50,228,10" Grid.Row="1" Stretch="Fill" Source="pack://siteoforigin:,,,/BurrodeMad.JPG"/>
