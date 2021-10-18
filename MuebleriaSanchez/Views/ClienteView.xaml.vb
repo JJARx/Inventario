@@ -1,0 +1,3 @@
+﻿Class ClienteView
+
+End Class
