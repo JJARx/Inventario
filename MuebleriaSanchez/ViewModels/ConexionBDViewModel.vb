@@ -2,7 +2,6 @@
 Imports System.Data.OleDb
 
 Module ConexionBDViewModel
-    Private Const V As String = ""
     Public conexion As New OleDbConnection
     Public estado As String
     Public comando As New OleDbCommand
