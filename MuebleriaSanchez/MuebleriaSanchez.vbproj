@@ -53,12 +53,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\AltaView - Copy.xaml.vb">
-      <DependentUpon>OperacionesEmpleadoView.xaml.vb</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <Page Update="Views\OperacionesEmpleadoView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
