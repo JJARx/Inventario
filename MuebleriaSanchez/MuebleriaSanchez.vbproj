@@ -10,8 +10,6 @@
   <ItemGroup>
     <Compile Remove="ViewModels\ProductosEconomicoViewModel.vb" />
     <Compile Remove="ViewModels\ProductosMadera2ViewModel.vb" />
-    <Compile Remove="ViewModels\ProductosTubular2ViewModel.vb" />
-    <Compile Remove="ViewModels\ProductosTubularViewModel.vb" />
   </ItemGroup>
 
   <ItemGroup>
@@ -101,7 +99,6 @@
 
   <ItemGroup>
     <Page Remove="Views\ProductosMaderaView.xaml" />
-    <Page Remove="Views\ProductosTubularView.xaml" />
     <Page Remove="Views\ProductosView.xaml" />
   </ItemGroup>
 
@@ -210,18 +207,12 @@
     <Resource Include="Resources\Tubular\ToalleroGde.JPG" />
     <Resource Include="ViewModels\ProductosMadera2ViewModel.vb" />
     <Resource Include="ViewModels\ProductosEconomicoViewModel.vb" />
-    <Resource Include="ViewModels\ProductosTubular2ViewModel.vb" />
     <Resource Include="Views\ProductosMaderaView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Resource>
-    <Resource Include="Views\ProductosTubularView.xaml" />
     <Resource Include="Views\ProductosView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Resource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="ViewModels\ProductosTubularViewModel.vb" />
   </ItemGroup>
 
   <ItemGroup>
@@ -231,15 +222,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Update="Views\ProductosTubular2View.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="Views\ProductosTubularView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
     <Page Update="Views\ProductosMadera2View.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ProductosEconomicoView.xaml">
-      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\ProductosTubular2View.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
     </Page>

@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="ProductosMaderaView"
+﻿ <UserControl x:Class="ProductosTubularView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,102 +6,98 @@
              xmlns:local="clr-namespace:MuebleriaSanchez"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="AntiqueWhite">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="5*"/>
-            <RowDefinition Height="35*"/>
-            <RowDefinition Height="15*"/>
-            <RowDefinition Height="20*"/>
-            <RowDefinition Height="20*"/>
-            <RowDefinition Height="5*"/>
-        </Grid.RowDefinitions>
+             Background="AntiqueWhite"><Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="5*"/>
+        <RowDefinition Height="35*"/>
+        <RowDefinition Height="15*"/>
+        <RowDefinition Height="20*"/>
+        <RowDefinition Height="20*"/>
+        <RowDefinition Height="5*"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="100*"/>
+    </Grid.ColumnDefinitions>
+
+    <Grid Grid.Row="1">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="70*"/>
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" Source="/Resources/sanchez.png" Margin="10,-16,92,110"/>
+
+    </Grid>
+
+    <Label FontSize="25" VerticalAlignment="Top" Margin="358,0,347,0" Grid.RowSpan="2"  >Tubular</Label>
+
+    <Grid Grid.Row="4" Margin="10,44,10,9" Grid.RowSpan="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="31*"/>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="30*"/>
-                <ColumnDefinition Width="70*"/>
-            </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" Source="/Resources/sanchez.png" Margin="10,-16,92,110"/>
-
-        </Grid>
-
-        <Label FontSize="25" VerticalAlignment="Top" Margin="358,0,347,0" Grid.RowSpan="2"  >Tubular</Label>
-
-        <Grid Grid.Row="4" Margin="10,44,10,9" Grid.RowSpan="2">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="31*"/>
-                <ColumnDefinition Width="3*"/>
-                <ColumnDefinition Width="31*"/>
-                <ColumnDefinition Width="3*"/>
-                <ColumnDefinition Width="31*"/>
-            </Grid.ColumnDefinitions>
-
-            <Grid Grid.Column="4" Background="#7FFFBE67" Margin="34,11,34,0"  >
-                <Grid.InputBindings>
-                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="4"/>
-                </Grid.InputBindings>
-                <Grid.Style>
-                    <Style/>
-                </Grid.Style>
+        <Grid Grid.Column="4" Background="#7FFFBE67" Margin="34,11,34,0"  >
+            <Grid.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="4"/>
+            </Grid.InputBindings>
+            <Grid.Style>
+                <Style/>
+            </Grid.Style>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="30*"/>
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/Icon1.png"/>
                 <Label FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="31,0,19,0">Tubular 2</Label>
-            </Grid>
-            <Grid Background="#7FFFBE67" Margin="34,10,34,3" Grid.Column="2">
-                <Grid.InputBindings>
-                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="5"/>
-                </Grid.InputBindings>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="30*"/>
-                    <ColumnDefinition Width="70*"/>
-                </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/Icon2.png"/>
-                <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0">Regresar</Label>
-            </Grid>
-            <Grid Background="#7FFFBE67" Margin="34,14,33,0">
-                <Grid.InputBindings>
-                    <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="6"/>
-                </Grid.InputBindings>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="30*"/>
-                    <ColumnDefinition Width="70*"/>
-                </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/IconAjustes.png"/>
-                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="91">Madera</Label>
-            </Grid>
         </Grid>
-        <Image Margin="10,52,656,30" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/BancaJardi.png"/>
-        <Image Margin="149,52,559,30" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/BancaRes.JPG"/>
-        <Image Margin="246,32,454,30" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/BancoGiratorio.png"/>
-        <Image Margin="358,36,366,30" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/Burrodeplanchar.JPG"/>
-        <Image Margin="439,26,290,20" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/ClosetTub.JPG"/>
-        <Image Margin="515,48,151,48" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/Comedor.JPG" RenderTransformOrigin="0.505,0.658"/>
-        <Image Margin="659,28,83,20" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/Esquinero.JPG"/>
-        <Image Margin="728,32,10,20" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/FruteroCh.JPG"/>
-        <Image Margin="10,5,656,78" Grid.Row="2" Stretch="Fill" Source="/Resources/Tubular/JuegoDeRecib.JPG" Grid.RowSpan="2"/>
-        <Image Margin="152,150,594,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/Librero.JPG"/>
-        <Image Margin="222,150,491,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraAca.JPG"/>
-        <Image Margin="322,150,404,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraCh.JPG"/>
-        <Image Margin="406,150,326,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraGde.png"/>
-        <Image Margin="489,150,202,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraLupita.png"/>
-        <Image Margin="610,150,112,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraResGde.JPG"/>
-        <Image Margin="707,8,10,76" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="/Resources/Tubular/MesaBanq.JPG"/>
-        <Image Margin="44,34,656,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/MesaDeCto.JPG"/>
-        <Image Margin="162,34,522,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/MesedoraResCh.JPG"/>
-        <Image Margin="296,34,454,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/Modulode4.JPG"/>
-        <Image Margin="364,34,364,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/PortaChico.JPG"/>
-        <Image Margin="463,34,280,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/Portaconcanas.JPG"/>
-        <Image Margin="540,34,202,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/PortaDoble.JPG"/>
-        <Image Margin="622,34,112,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/SillaFlor.JPG"/>
-        <Image Margin="707,34,27,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/SillaGrecia.JPG"/>
+        <Grid Background="#7FFFBE67" Margin="34,10,34,3" Grid.Column="2">
+            <Grid.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="5"/>
+            </Grid.InputBindings>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="70*"/>
+                </Grid.ColumnDefinitions>
+                <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0">Regresar</Label>
+        </Grid>
+        <Grid Background="#7FFFBE67" Margin="34,14,33,0">
+            <Grid.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding OpenOptionCommand}" CommandParameter="6"/>
+            </Grid.InputBindings>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="70*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="91">Madera</Label>
+        </Grid>
     </Grid>
+    <Image Margin="10,52,656,30" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/BancaJardi.png"/>
+    <Image Margin="149,52,559,30" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/BancaRes.JPG"/>
+    <Image Margin="246,32,454,30" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/BancoGiratorio.png"/>
+    <Image Margin="358,36,366,30" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/Burrodeplanchar.JPG"/>
+    <Image Margin="439,26,290,20" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/ClosetTub.JPG"/>
+    <Image Margin="515,48,151,48" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/Comedor.JPG" RenderTransformOrigin="0.505,0.658"/>
+    <Image Margin="659,28,83,20" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/Esquinero.JPG"/>
+    <Image Margin="728,32,10,20" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/FruteroCh.JPG"/>
+    <Image Margin="10,5,656,78" Grid.Row="2" Stretch="Fill" Source="/Resources/Tubular/JuegoDeRecib.JPG" Grid.RowSpan="2"/>
+    <Image Margin="152,150,594,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/Librero.JPG"/>
+    <Image Margin="222,150,491,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraAca.JPG"/>
+    <Image Margin="322,150,404,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraCh.JPG"/>
+    <Image Margin="406,150,326,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraGde.png"/>
+    <Image Margin="489,150,202,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraLupita.png"/>
+    <Image Margin="610,150,112,70" Grid.RowSpan="3" Grid.Row="1" Stretch="Fill" Source="/Resources/Tubular/MecedoraResGde.JPG"/>
+    <Image Margin="707,8,10,76" Grid.RowSpan="2" Grid.Row="2" Stretch="Fill" Source="/Resources/Tubular/MesaBanq.JPG"/>
+    <Image Margin="44,34,656,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/MesaDeCto.JPG"/>
+    <Image Margin="162,34,522,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/MesedoraResCh.JPG"/>
+    <Image Margin="296,34,454,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/Modulode4.JPG"/>
+    <Image Margin="364,34,364,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/PortaChico.JPG"/>
+    <Image Margin="463,34,280,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/Portaconcanas.JPG"/>
+    <Image Margin="540,34,202,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/PortaDoble.JPG"/>
+    <Image Margin="622,34,112,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/SillaFlor.JPG"/>
+    <Image Margin="707,34,27,72" Grid.RowSpan="2" Grid.Row="3" Stretch="Fill" Source="/Resources/Tubular/SillaGrecia.JPG"/>
+</Grid>
 
 
 
