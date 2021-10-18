@@ -1,3 +1,3 @@
-﻿Public Class HomeView
+﻿Public Class OperacionesEmpleadoView
 
 End Class
