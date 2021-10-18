@@ -51,7 +51,6 @@
                     <ColumnDefinition Width="30*"/>
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/Icon1.png"/>
                 <Label FontSize="20" VerticalAlignment="Center" Margin="0,0,19,0" Grid.Column="1">Madera</Label>
             </Grid>
             <Grid Background="#7FFFBE67" Margin="34,10,34,3" Grid.Column="2">
@@ -62,7 +61,6 @@
                     <ColumnDefinition Width="30*"/>
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/Icon2.png"/>
                 <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0">Regresar</Label>
             </Grid>
             <Grid Background="#7FFFBE67" Margin="34,14,33,0">
@@ -73,7 +71,6 @@
                     <ColumnDefinition Width="30*"/>
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/IconAjustes.png"/>
                 <Label FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="76" Grid.ColumnSpan="2" Margin="51,0,0,0">Tubular</Label>
             </Grid>
         </Grid>
