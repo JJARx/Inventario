@@ -51,7 +51,6 @@
                     <ColumnDefinition Width="30*"/>
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/Icon1.png"/>
                 <Label FontSize="20" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="26,0,26,0">Económico</Label>
             </Grid>
             <Grid Background="#7FFFBE67" Margin="23,-116,45,129" Grid.Column="4">
@@ -62,7 +61,6 @@
                     <ColumnDefinition Width="30*"/>
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/Icon2.png"/>
                 <Label FontSize="20" VerticalAlignment="Center" Background="{x:Null}" Grid.ColumnSpan="2" Margin="43,0,40,0">Tubular</Label>
             </Grid>
             <Grid Background="#7FFFBE67" Margin="37,-116,30,129">
@@ -73,7 +71,6 @@
                     <ColumnDefinition Width="30*"/>
                     <ColumnDefinition Width="70*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Views/IconAjustes.png"/>
                 <Label Grid.Column="1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Width="91">Madera</Label>
             </Grid>
         </Grid>
